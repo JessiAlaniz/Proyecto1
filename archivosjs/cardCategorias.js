@@ -36,7 +36,7 @@ window.addEventListener('click', event => {
 
         const Cprod = productos.map(e=>{
     
-            if (e.id == event.target.id && cantidad != '0')
+            if (e.id == event.target.id)
             { 
      
                 const newItem = {
@@ -53,9 +53,8 @@ window.addEventListener('click', event => {
                 console.log(items)
             
                 setData('Productos', items)
-    
-     
-            }
+                
+                }
 
              
          }).join('')
