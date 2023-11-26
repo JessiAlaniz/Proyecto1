@@ -1,0 +1,152 @@
+[
+   {
+      "imagen": "../imagenes/MOUSE.jpg",
+      "titulo": "Mouse",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "1000",
+      "categoria": "Mouse",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/Mouse.html",
+      "id": "0"
+   },
+    {
+       "imagen": "../imagenes/MOUSE.jpg",
+       "titulo": "Mouse",
+       "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+       "precio": "1000",
+       "categoria": "Mouse",
+       "home": "Home",
+       "url": "http://127.0.0.1:5500/Mouse.html",
+       "id": "1"
+    },
+    {
+      "imagen": "../imagenes/MOUSE.jpg",
+      "titulo": "Mouse",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "1000",
+      "categoria": "Mouse",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/Mouse.html",
+      "id": "2"
+   },
+    {
+        "imagen": "../imagenes/MOUSE.jpg",
+        "titulo": "Mouse",
+        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "precio": "1000",
+        "categoria": "Mouse",
+        "home": "Home",
+        "url": "http://127.0.0.1:5500/Mouse.html",
+        "id": "3"
+     },
+     {
+        "imagen": "../imagenes/MOUSE.jpg",
+        "titulo": "Mouse",
+        "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+        "precio": "1000",
+        "categoria": "Mouse",
+        "home": "Home",
+        "url": "http://127.0.0.1:5500/Mouse.html",
+        "id": "4"
+     },
+     {
+      "imagen": "../imagenes/tablet.jpg",
+      "titulo": "Tablet",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "1000",
+      "categoria": "Tablet",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/Tablet.html",
+      "id": "5"
+   },
+   {
+      "imagen": "../imagenes/tablet.jpg",
+      "titulo": "Tablet",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "1000",
+      "categoria": "Tablet",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/Tablet.html",
+      "id": "6"
+   },
+   {
+      "imagen": "../imagenes/tablet.jpg",
+      "titulo": "Tablet",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "1000",
+      "categoria": "Tablet",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/Tablet.html",
+      "id": "7"
+   },
+   {
+      "imagen": "../imagenes/tablet.jpg",
+      "titulo": "Tablet",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "1000",
+      "categoria": "Tablet",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/Tablet.html",
+      "id": "8"
+   },
+   {
+      "imagen": "../imagenes/tablet.jpg",
+      "titulo": "Tablet",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "1000",
+      "categoria": "Tablet",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/Tablet.html",
+      "id": "9"
+   },
+   {
+      "imagen": "../imagenes/notebook.jpg",
+      "titulo": "Notebook",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "51000",
+      "categoria": "Notebook",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/notebook.html",
+      "id": "10"
+   },
+   {
+      "imagen": "../imagenes/notebook.jpg",
+      "titulo": "Notebook",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "51000",
+      "categoria": "Notebook",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/notebook.html",
+      "id": "11"
+   },
+   {
+      "imagen": "../imagenes/notebook.jpg",
+      "titulo": "Notebook",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "51000",
+      "categoria": "Notebook",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/notebook.html",
+      "id": "12"
+   },
+   {
+      "imagen": "../imagenes/notebook.jpg",
+      "titulo": "Notebook",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "51000",
+      "categoria": "Notebook",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/notebook.html",
+      "id": "13"
+   },
+   {
+      "imagen": "../imagenes/notebook.jpg",
+      "titulo": "Notebook",
+      "texto": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
+      "precio": "51000",
+      "categoria": "Notebook",
+      "home": "Home",
+      "url": "http://127.0.0.1:5500/notebook.html",
+      "id": "14"
+   }
+]
