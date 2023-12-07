@@ -28,7 +28,6 @@ btnLogin.addEventListener('click', () =>{
         const items = getData('Login')
              
         items.push(login)
-        console.log(items)
     
         setData('Login', items)
 

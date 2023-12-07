@@ -2,10 +2,8 @@ import { cardComp } from "./card.js";
 import { getData, setData  } from "../localStorage/localStorage.js";
 
 let title = document.querySelector(".titulo").id
-
-
-
 let cardContainer = document.getElementById('c-container');
+
 window.addEventListener('load', () =>{
 
     fetch('http://127.0.0.1:5500/JsonProd/Prod.json').then(response => response.json()).then(prod =>{
@@ -27,25 +25,24 @@ window.addEventListener('load', () =>{
 
 window.addEventListener('click', event => {
 
-    let cantidad = document.getElementById("cantidadC").value
     if(event.target.dataset.number == "agregar")
     {
+        let cant = document.getElementById("cantidadC").value
         fetch('http://127.0.0.1:5500/JsonProd/Prod.json').then(response => response.json()).then(productos =>{
 
 
 
         const Cprod = productos.map(e=>{
     
-            if (e.id == event.target.id)
+            if (e.id == event.target.id && cant > 0)
             { 
      
                 const newItem = {
                     id: e.id,
                     title: e.titulo,
                     price: e.precio,
-                    cantidad: event.target.offsetParent.childNodes[5].childNodes[1].childNodes[3].childNodes[1].value
+                    cantidad: event.target.offsetParent.childNodes[5].childNodes[1].childNodes[1].childNodes[1].value
                 }
-            
     
                 const items = getData('Productos')
                 items.push(newItem)
@@ -60,9 +57,9 @@ window.addEventListener('click', event => {
          }).join('')
          
     
-         console.log(Cprod)
+        
     
     })
     }
-
+    cant = 0;
 })

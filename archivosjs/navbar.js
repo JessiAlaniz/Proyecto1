@@ -1,5 +1,6 @@
 const url = 'http://127.0.0.1:5500/'
 const datos = [
+    {titulo:'Home', link: `${url}../home.html`},
     {titulo:'Mouse', link: `${url}../Mouse.html`},
     {titulo:'Tablet', link:`${url}../Tablet.html`},
     {titulo:'Notebook', link:`${url}../notebook.html`},
@@ -19,9 +20,6 @@ export const navbarCmp = `
     <div class="collapse navbar-collapse" id="navbarCollpase">
 
         <ul class="navbar-nav">
-            <li class="nav-item">
-             <a href="../home.html" class="nav-link active">Home</a>
-            </li>
             ${datos.map(e =>{
                 return `
                 <li class="nav-item">

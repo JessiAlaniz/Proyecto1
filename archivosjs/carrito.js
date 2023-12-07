@@ -1,5 +1,9 @@
-import { getData, setData,deleteData  } from "../localStorage/localStorage.js";
+import { getData } from "../localStorage/localStorage.js";
+import { setData } from "../localStorage/localStorage.js";
+import { deleteData } from "../localStorage/localStorage.js";
 
+let body = document.getElementById("c-container")
+let body1 = document.getElementById("idDatos")
 
 const compras = (titulo, precio, cantidad, id) => {
 
@@ -50,7 +54,7 @@ const datos = (total) => {
             </div>
             <div class="col-md-3">
               <label for="inputLTotal" class="form-label">Monto total a pagar</label>
-              <input type="price" class="form-control" id="inputTotal" value="$${total}" placeholder="Monto total a pagar" disabled>
+              <input type="price" class="form-control" id="inputTotal" value="$${total}" placeholder="Monto total a pagar" >
             </div>
             <div class="col-12">
               <div class="form-check">
@@ -68,17 +72,16 @@ const datos = (total) => {
     </div>
     `}
 
-    let body = document.getElementById("c-container")
-    let body1 = document.getElementById("idDatos")
+
     
     
     
-    window.addEventListener('load', () =>{
+    window.addEventListener('load', event =>{
         const prod = getData('Productos')
-    
+        
         let total = 0;
         const eProd = prod.map(e=>{
-    
+
             let subtotal = e.cantidad * e.price
             
             total= total + subtotal
